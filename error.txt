@@ -1,10 +1,4 @@
-# Vuetify 2 with Sass
-
-Currently demonstrates error caused by including `lang="scss"` in a Single File Component.
-
-If you run `yarn serve` you will get the following error:
-
-```
+yarn run v1.15.2
 $ vue-cli-service serve
  INFO  Starting development server...
  ERROR  Failed to compile with 1 errors12:38:27 PM
@@ -31,9 +25,4 @@ Module build failed (from ./node_modules/sass-loader/lib/loader.js):
  @ ./src/App.vue
  @ ./src/main.js
  @ multi (webpack)-dev-server/client?http://localhost:8081/sockjs-node (webpack)/hot/dev-server.js ./src/main.js
-```
 
-## Attempted workarounds
-
--  Adding a semicolon to the import in `vue.config.js` results in an error about indentation.
--  Converting the `style` block in `ScssComponent` to Sass syntax "works", but wrong for the future
