@@ -1,0 +1,93 @@
+$body-font-family: 'Inter var', sans-serif;
+$heading-font-family: 'Oswald', sans-serif;
+
+
+@import '~vuetify/src/styles/styles.sass';
+
+$headings: map-merge($headings, ( 
+    h1: (
+        'size': 6rem,
+        'weight': 200,
+        'line-height': 6rem,
+        'letter-spacing': -.04em,
+        'font-family': $heading-font-family,
+    ),
+    h2: (
+        'size': 3.75rem,
+        'weight': 300,
+        'line-height': 3.75rem,
+        'letter-spacing': -.0083333333em,
+        'font-family': $heading-font-family
+    ),
+    h3: (
+        'size': 3rem,
+        'weight': 200,
+        'line-height': 3.125rem,
+        'letter-spacing': normal,
+        'font-family': $body-font-family
+    ),
+    h4: (
+        'size': 2.125rem,
+        'weight': 400,
+        'line-height': 2.5rem,
+        'letter-spacing': .0073529412em,
+        'font-family': $heading-font-family
+    ),
+    h5: (
+        'size': 1.5rem,
+        'weight': 400,
+        'line-height': 2rem,
+        'letter-spacing': normal,
+        'font-family': $heading-font-family
+    ),
+    h6: (
+        'size': 1.25rem,
+        'weight': 400,
+        'line-height': 2rem,
+        'letter-spacing': .0125em,
+        'font-family': $heading-font-family,
+        'font-variant': small-caps
+    ),
+    'subtitle-1': (
+        'size': 1rem,
+        'weight': 400,
+        'line-height': 1.75rem,
+        'letter-spacing': .009375em,
+        'font-family': $heading-font-family
+    ),
+    'subtitle-2': (
+        'size': 1rem,
+        'weight': 600,
+        'line-height': 1.75rem,
+        'letter-spacing': .009375em,
+        'font-family': $heading-font-family
+    ),
+    caption: (
+        'size': .75rem,
+        'weight': 500,
+        'letter-spacing': .0333333333em,
+        'line-height': 1.25rem,
+    ),
+    overline: (
+        'size': .625rem,
+        'weight': 400,
+        'letter-spacing': .1666666667em,
+        'line-height': 1rem
+    )
+  ));
+$font-size-root: 16px;
+// For updating SASS lists
+//$material-light: map-merge($material-light, ( cards: blue ));
+$btn-border-radius: 4px;
+.v-btn {
+    font-family: 'Oswald', sans-serif;
+}
+.rai-data {
+    font-family: 'Inter var', sans-serif;
+    -moz-font-feature-settings: 'calt' 1, 'tnum' 1, 'ss01' 1, 'ss02' 1;
+    -ms-font-feature-settings: 'calt' 1, 'tnum' 1, 'ss01' 1, 'ss02' 1;
+    -o-font-feature-settings: 'calt' 1, 'tnum' 1, 'ss01' 1, 'ss02' 1;
+    -webkit-font-feature-settings: 'calt' 1, 'tnum' 1, 'ss01' 1, 'ss02' 1;
+    font-feature-settings: 'calt' 1, 'tnum' 1, 'ss01' 1, 'ss02' 1;
+    letter-spacing: .1em;
+}
