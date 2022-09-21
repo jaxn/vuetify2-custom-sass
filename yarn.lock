@@ -8052,10 +8052,10 @@ vuetify-loader@^1.2.2:
   dependencies:
     loader-utils "^1.1.0"
 
-vuetify@^2.0.0-beta.0:
-  version "2.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.0.0-beta.5.tgz#3cb929d3b2af1c057e83a68a6bd11d12323e2a19"
-  integrity sha512-YJBTs681yHrQ/mZpmjHNDtM6CPjIRr6CLnmKTWWGGuHEUtKc7hSv+JHd3myvSowlcN+5c3gxQHjW2nn7l2Wz1A==
+vuetify@^2.6.10:
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.6.10.tgz#b86cd7a97bf8cd3828a72c349795b5b3c539ebc2"
+  integrity sha512-fgUeRDDCwYkwu6WGEEKGe7IdfzOsXJCZGrqkn1pcS2ycuoDL8mR2/dejH5iFNnBY6MnsT365PAGn0J+9otjfQg==
 
 watchpack@^1.5.0:
   version "1.6.0"
